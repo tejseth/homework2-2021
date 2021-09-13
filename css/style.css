@@ -6,18 +6,7 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+body {
     font-family: 'Times New Roman', sans-serif;
     background-color: #000000;
     color: #ffffff;
@@ -39,22 +28,19 @@ h2{
 p{
     background-color: transparent;
     font-size: 24px;
-    padding-top: 10px; 
+    padding-top: 15px; 
 }
 
 img{
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 550px; 
 }
 
 div {
-    padding-top: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    height: 150px; 
+    padding: 25px 25px; 
+    height: 200px; 
 }
 
 #red {
@@ -86,7 +72,8 @@ div {
     text-align: left; 
 }
 
-footer{
+footer p {
     text-align: center;
-    font-size: 10px; 
+    padding-right: 10px;
+    padding-bottom: 10px;
 }

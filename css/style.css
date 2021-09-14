@@ -1,11 +1,3 @@
-/* 
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
-Twitter: @rich_clark
-*/
-
 body {
     font-family: 'Times New Roman', sans-serif;
     background-color: #000000;
@@ -29,15 +21,15 @@ p{
 }
 
 img{
+    width: 550px; 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 550px; 
 }
 
 div {
     padding: 25px; 
-    height: 150px; 
+    min-height: 150px; 
 }
 
 #red {
@@ -50,6 +42,11 @@ div {
     text-align: left;
 }
 
+#yellow {
+    background-color: #ffff00;
+    text-align: right; 
+}
+
 #yellow p {
     color: #000000; 
 }
@@ -57,11 +54,6 @@ div {
 #yellow h2{
     color: #000000;
     text-shadow: 4px 4px 2px #c7e2c7; 
-}
-
-#yellow {
-    background-color: #ffff00;
-    text-align: right; 
 }
 
 #green {
